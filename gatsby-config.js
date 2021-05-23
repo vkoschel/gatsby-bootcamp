@@ -4,6 +4,7 @@ module.exports = {
     description: "Victor Koschel",
   },
   plugins: [
+    'gatsby-plugin-react-helmet',
     {
       resolve: "gatsby-source-contentful",
       options: {
