@@ -9,8 +9,8 @@ const about = () => {
             <Layout>
                 <Head title ="About" />
             <h1>About</h1>
-            <p>Victor Koschel</p>
-            <p><Link to="/contact">Work with me</Link></p>
+            <p>Computer Engineering student! My goal is to become a high skilled and versatile Developer!</p>
+            <p><Link to="/contact">Join me!</Link></p>
             </Layout>
         </div>
     )

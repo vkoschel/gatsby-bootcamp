@@ -31,6 +31,7 @@ const BlogPage = () => {
       <Layout>
         <Head title="Blog" />
         <h1>Blog</h1>
+        <p>The following blog posts are being fetched from Contentful!</p>
         <ol className={blogStyles.posts}>
             {data.allContentfulBlogPost.edges.map((edge) => {
                 return (
