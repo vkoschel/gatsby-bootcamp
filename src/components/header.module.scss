@@ -19,6 +19,9 @@
     display: flex;
     list-style: none;
     margin: 0;
+    border-bottom: 1px solid transparentize($color: #fefefe, $amount: 1);
+    transition: border-bottom 0.5s;
+    transition-timing-function: ease-in-out;
 }
 
 .nav-item:hover {
